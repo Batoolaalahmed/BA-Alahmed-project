@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <title>Realisic Illustration</title>
+    <title>Photoshop</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/logo.PNG">
 </head>
 <body>
@@ -60,7 +60,7 @@
         <br>
         <br>
           
-        </div>
+       
         <br>
         <br>
 
@@ -78,8 +78,15 @@
 
 
 </section>
+    
+
+          <br>
+          <br>
+          <br>
+          <div id="cf">
+            <img class="bottom" src="./assets/images/photoshop/orginal_reddress.jpg" />
+            <img class="top" src="./assets/images/photoshop/pukka_red.jpg" />
           </div>
-
           <br>
           <br>
           <br>
@@ -90,141 +97,17 @@
 
       
         
-        <section style="content: '';
-        display: table;
-        clear: both;">
-         <article>
-          <img src="./assets/images/photoshop/pukka_red.jpg" style="width:60%; object-fit: cover; float:right">
-          
-        </article>
-        <nav>
-          <div class="vl"></div>
-          <p style=" background-color:#4663f709; font-family: Inter, sans-serif;
-       font-style: normal;
-        position: relative;
-top: 5px;
-bottom: 13px;
-right: 4px;
-left: 90px;
-border-radius: 10px;
-border: none;
-color: #01385f;
-display: inline-block;
-font-size: 15px;
-padding: 5px 10px;
-text-align: center;
-letter-spacing: 2px;
-text-decoration: none;
-max-width: 100%; ">Original</p>
+    
+        
          
-          <img src="./assets/images/photoshop/orginal_reddress.jpg" style="width: 70%; padding-top: 10px;">
-          
-        </nav>
-      </section>
-      <br>
-      <br>
-      <br>
-      <br>
+         
           
           
-          <article>
-            <img src="./assets/images/photoshop/pukka_ad.jpg" style="width:60%; object-fit: cover; float:right">
-            
-          </article>
-          <nav>
-            <div class="vl"></div>
-            <p style=" background-color:#4663f709; font-family: Inter, sans-serif;
-         font-style: normal;
-          position: relative;
-  top: 5px;
-  bottom: 13px;
-  right: 4px;
-  left: 90px;
-  border-radius: 10px;
-  border: none;
-  color: #01385f;
-  display: inline-block;
-  font-size: 15px;
-  padding: 5px 10px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-decoration: none; ">Original</p>
-           
-            <img src="./assets/images/photoshop/orginal_blue_dress.jpg" style="width: 70%; padding-top: 10px;">
-            
-          </nav>
-        </section>
-        <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br> 
-          <article>
-            <img src="./assets/images/photoshop/pukka_child.jpg" style="width:60%;  float:right; margin-top: 10px; padding-top: 30px;">
-            
-          </article>
-          <nav>
-            <div class="vl"></div>
-            <p style=" background-color:#4663f709; font-family: Inter, sans-serif;
-         font-style: normal;
-          position: relative;
-  top: 5px;
-  bottom: 13px;
-  right: 4px;
-  left: 90px;
-  border-radius: 10px;
-  border: none;
-  color: #01385f;
-  display: inline-block;
-  font-size: 15px;
-  padding: 5px 10px;
-  text-align: center;
-  letter-spacing: 2px;
-  text-decoration: none; ">Original</p>
-           
-            <img src="./assets/images/photoshop/orginal_childwoment_tea.jpg" style="width: 70%; padding-top: 30px; max-width: 100%;">
-            
-          </nav>
-        </section>
-
+      
 
         
 
-        <div class="pargraph one">
-
-        
-          <br>
-          <br>
-          <br>
-        
-
-          
-          <div class="b">
-            
-        <img src="./assets/images/photoshop/billboard_bluedress.jpg" style="width: 50%; padding-top: 30px; max-width: 100%;">
-            <br>
-            <br>
-          <br>
-          <br>
-
-        <header  style="background-color:#01385f; font-family: Inter, sans-serif;
-        font-weight: bold; font-style: normal;
-        font-weight: lighter;
-        font-size: 15px;
-        padding: 1px;
-        padding-left: 70px;
-        padding-top: 0.5px;
-        letter-spacing: 2px;
-        text-align: left;
-        width: 30%;
-        border-bottom-left-radius: 20px ;
-        border-top-left-radius: 20px ;
-        margin-left: 70%;
-        margin-right: 0px;">
-          <h3>Movie Poster</h3>
-        </header> 
+       
 
        
         <br>
@@ -569,10 +452,31 @@ p
 }
 
 
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
 
 
  /*links */
-a {
+ a {
       color:rgb(80, 140, 184);
       text-decoration: none;
       font-size: 22px;
@@ -584,21 +488,30 @@ a {
       font-size: 24px;
     }
 
+    .padding-right {
+      padding-right: 15px;
+    }
 
     footer {
-      width: 100%;
-      float: left;
       padding: 20px;
-      display: flex;
+    
       justify-content: center;
       background-color: #01385f;
-      position: absolute;
+  
+
+      position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
     }
 
     footer a:hover.hover-color {
       color: #7fd3b1;
       text-decoration: none;
     }
+
 
    
 
